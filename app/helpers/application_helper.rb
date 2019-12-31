@@ -1,5 +1,5 @@
 module ApplicationHelper
     def dateBR(dateUS)
-        dateUD.strftime("%d/%m/%Y")
+        dateUS.strftime("%d/%m/%Y")
     end
 end
