@@ -2,8 +2,6 @@
 
 <p><strong>Data: </strong><%= dateBR(Date.today) %></p>
 
-<ul>
-    <li>
-        <%= link_to "Cadastro de Moedas", coins_path %>
-    </li>
-</ul>
+<%= render "menu" %>
+
+<p><strong><%= @nome %></strong> esta em ambiente de <strong><%= railsEnv %></strong></p>
