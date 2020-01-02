@@ -1,6 +1,7 @@
 <h1>Seja Bem-Vindo!</h1>
 
-<p><strong>Data: </strong><%= dateBR(Date.today) %></p>
+<p>Idioma: <strong><%= t('actual_locale') %></strong></p>
+<p><strong>Data: </strong><%= l(Date.today) %></p>
 
 <%= render "menu" %>
 
