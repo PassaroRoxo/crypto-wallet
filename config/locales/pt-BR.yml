@@ -1,5 +1,28 @@
 pt-BR:
-  actual_locale: Português do Brasil
+  language: Idioma
+  actual_locale: Português
+  current_date: Data
+  developed: Desenvolvido por
+
+  welcome: Bem-Vindo
+  wel_part_1: Crypto Wallet é um app desenvolvido para estudos de Ruby on Rails. Este app apenas faz um CRUD básico em Moedas e Tipos de Mineração.
+  wel_part_2: Para começar, selecione umas das opções abaixo
+  img: Imagem URL
+
+  confirmation: Tem certeza?
+
+  buttons:
+    new: Novo
+    back: Voltar
+
+  new:
+    coin: Nova Moeda
+    mining_type: Novo Tipo de Mineração
+
+  edit:
+    coin: Editar Moeda
+    mining_type: Editar Tipo de Mineração
+
   links:
     edit: "Editar"
     show: "Mostrar"

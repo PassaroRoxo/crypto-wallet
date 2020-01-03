@@ -1,14 +1,7 @@
-<p>
-<%= link_to 'Português', root_path(locale: 'pt-BR') %>
-</p>
-<p>
-<%= link_to 'English', root_path(locale: 'en') %>
-</p>
-<h1>Seja Bem-Vindo!</h1>
-
-<p>Idioma: <strong><%= t('actual_locale') %></strong></p>
-<p><strong>Data: </strong><%= l(Date.today) %></p>
-
-<%= render "menu" %>
-
-<p><strong><%= @nome %></strong> esta em ambiente de <strong><%= railsEnv %></strong></p>
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('welcome') %>!</h1>
+  <p class="lead"><%= t('wel_part_1') %></p>
+  <hr class="my-4">
+  <p><%= t('wel_part_2') %>:</p>
+  <%= render "menu" %>
+</div>

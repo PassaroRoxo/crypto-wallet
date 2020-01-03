@@ -1,5 +1,15 @@
 {
   "name": "crypto_wallet",
-  "private": true,
-  "dependencies": {}
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "notify-js-legacy": "^0.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:PassaroRoxo/crypto-wallet.git",
+  "author": "Artur <henriqueacg@gmail.com>",
+  "license": "MIT"
 }
